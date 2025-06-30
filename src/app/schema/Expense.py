@@ -1,5 +1,4 @@
 from typing import Optional
-from langchain_mistralai import ChatMistralAI
 from pydantic import BaseModel, Field
 
 class Expense(BaseModel):
