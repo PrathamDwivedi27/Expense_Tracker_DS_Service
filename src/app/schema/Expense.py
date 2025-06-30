@@ -1,6 +1,6 @@
 from typing import Optional
 from langchain_mistralai import ChatMistralAI
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 
 class Expense(BaseModel):
         """Information about a transaction made on any Card"""
