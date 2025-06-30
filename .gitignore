@@ -1,2 +1,4 @@
 dsenv
 .env
+__pycache__
+*.pyc
